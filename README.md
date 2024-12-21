@@ -2,19 +2,19 @@
 Thesis code used to build the model, the dictionaries and the use cases:
 
 - DictionariesCreation
-	- ''build1pImagesDictionary.py'': Script to build a dictionary containg images of 1 projected point;
-	- ''build2pImagesDictionary.py'': Script to build a dictionary containg images of 2 projected points where, as the distance increases, the dots eventually merge, resulting in twice the number of photons; 
+	- build1pImagesDictionary.py: Script to build a dictionary containg images of 1 projected point;
+	- build2pImagesDictionary.py: Script to build a dictionary containg images of 2 projected points where, as the distance increases, the dots eventually merge, resulting in twice the number of photons; 
 
 - Models
-	- ''activeStereoModel'': Script to simulate the laser's spot on the camera's sensor; 
-	- ''proposedActiveStereoModel'': Script to simulate two separated laser's spots on the camera's sensor;
+	- activeStereoModel.py: Script to simulate the laser's spot on the camera's sensor; 
+	- proposedActiveStereoModel.py: Script to simulate two separated laser's spots on the camera's sensor;
 
 - UC21
-	- ''generateIdealStereoDatasetFirstEvenFrames'': Script to build the new dataset related with UC2.1 (first 3750 even frames);
-	- ''generateIdealStereoDatasetFirstOddFrames'': Script to build the new dataset related with UC2.1 (first 3750 odd frames);
-	- ''generateIdealStereoDatasetLastEvenFrames'': Script to build the new dataset related with UC2.1 (last 3750 even frames);
-	- ''generateIdealStereoDatasetLastOddFrames'': Script to build the new dataset related with UC2.1 (last 3750 odd frames);
-	- ''getImage'': Script to generate Bird's-eye view of the first frame of the new dataset.
+	- generateIdealStereoDatasetFirstEvenFrames.py: Script to build the new dataset related with UC2.1 (first 3750 even frames);
+	- generateIdealStereoDatasetFirstOddFrames.py: Script to build the new dataset related with UC2.1 (first 3750 odd frames);
+	- generateIdealStereoDatasetLastEvenFrames.py: Script to build the new dataset related with UC2.1 (last 3750 even frames);
+	- generateIdealStereoDatasetLastOddFrames.py: Script to build the new dataset related with UC2.1 (last 3750 odd frames);
+	- getImage.py: Script to generate Bird's-eye view of the first frame of the new dataset.
 
 ...
 
